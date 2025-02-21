@@ -6,7 +6,7 @@ from aiogram.utils import executor
 # Токен, который ты получил от BotFather
 TOKEN = "7588071415:AAGGvexsp2DZKRzbbOzfQY5w5J027Pbn24k"
 # Ссылка на твой Mini App (будет в дальнейшем на GitHub Pages)
-WEB_APP_URL = "https://mymini_mrbrain111.github.io/my-mini-app/"
+WEB_APP_URL = "https://mrbrain111.github.io/mymini-app/"
 
 logging.basicConfig(level=logging.INFO)
 
