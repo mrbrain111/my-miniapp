@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini App</title>
+</head>
+<body>
+    <h1>Добро пожаловать в Mini App!</h1>
+    <button onclick="sendMessage()">Отправить сообщение в Telegram</button>
+
+    <script>
+        function sendMessage() {
+            const userData = Telegram.WebApp.initData;
+            alert("Отправляю сообщение в Telegram: " + userData);
+        }
+    </script>
+</body>
+</html>
